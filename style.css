@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    background-color: rgb(46, 45, 45);
+    color: aliceblue;
+    list-style: none;
+    justify-content:space-around;
+    align-items:center;
+    display: flex;
+    height: 100px;
+   
+}
+.logo {
+font-size: 32px;
+font-weight: bolder;
+padding: 10px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.mango {
+    display: flex;
+}
+.item {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.item:hover{
+    color: burlywood;
+}
+#btn1 {
+    background-color: rgb(253, 30, 22);
+    color:aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    
+}
+#btn1:hover {
+    color: black;
+}
+.banner-photo {
+    width: 300px;
+}
+.banner {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://raw.githubusercontent.com/gias-uddin-swe/digital-products-b8/main/images/background.png),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+}
+.title {
+    font-size: 50px;
+    font-weight: 900;
+}
